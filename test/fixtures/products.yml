@@ -11,3 +11,9 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+shoes:
+  title: Adidas Zero
+  description: Basketball shoes.
+  image_url: adi_zero.jpg
+  price: 74.75
