@@ -20,8 +20,8 @@
            <li><a href="http://www..../faq">Questions</a></li>
            <li><a href="http://www..../news">News</a></li>
            <li><a href="http://www..../contact">Contact</a></li>
-           <li><%= Time.now.strftime("%H:%M - %d.%m.%Y") %></li>
          </ul>
+         <p><%= @time %></p>
       </div>
       <div id="main">
         <%= yield %>
