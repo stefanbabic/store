@@ -32,7 +32,7 @@ class LineItemsController < ApplicationController
     respond_to do |format|
       if @line_item.save
         session[:counter] = 0
-        format.html { redirect_to @line_item.cart }
+        format.html { redirect_to store_index_url }
         format.json { render :show, status: :created, location: @line_item }
       else
         format.html { render :new }
@@ -61,7 +61,7 @@ class LineItemsController < ApplicationController
     @line_item = LineItem.find(params[:id])
     @line_item.destroy
     respond_to do |format|
-      format.html { redirect_to cart_url, notice: 'Item was successfully removed.' }
+      format.html { redirect_to cart_url(session[:cart_id]), notice: 'Item was successfully removed.' }
       format.json { head :no_content }
     end
   end
