@@ -7,7 +7,7 @@
 
 <p>
   <strong>Description:</strong>
-  <%= @product.description %>
+  <%= strip_tags(@product.description) %>
 </p>
 
 <p>
@@ -17,7 +17,7 @@
 
 <p>
   <strong>Price:</strong>
-  <%= @product.price %>
+  <%= number_to_currency(@product.price, unit: "€") %>
 </p>
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
