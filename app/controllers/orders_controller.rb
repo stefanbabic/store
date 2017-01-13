@@ -49,7 +49,7 @@ class OrdersController < ApplicationController
   # PATCH/PUT /orders/1.json
   def update
     @order = Order.find(params[:id])
-    @order.attributes = params[:order]
+    @order.attributes = order_params
 
     ship_date_changed = @order.ship_date_changed?
 
