@@ -3,7 +3,7 @@
 one:
   name: Stefan Babic
   address: MyAddress
-  email: stefan@babic.com
+  email: stefan@example.org
   pay_type: Check
 
 two:
