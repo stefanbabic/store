@@ -20,4 +20,33 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+
+  layouts:
+    application:
+      title:        "The Sport Shoes Store"
+      home:         "Home"
+      questions:    "Questions"
+      news:         "News"
+      contact:      "Contact"
+      admin_login:  "Admin Login"
+      logout:       "Logout"
+
+  store:
+    index:
+      title_html:   "Store Catalog"
+      add_html:     "Add to Cart"
+
+  carts:
+    cart:
+      title:        "Your Cart:"
+      checkout:     "Checkout"
+      empty:        "Empty Cart"
+
+  number:
+    currency:
+      format:
+        unit:       "$"
+        precision:  2
+        separator:  "."
+        delimiter:  ","
+        format:     "%u%n"

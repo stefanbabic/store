@@ -1,0 +1,9 @@
+bs:
+
+  layouts:
+      application:
+        title:      "The Sport Shoes Store"
+        home:       "Home"
+        questions:  "Questions"
+        news:       "News"
+        contact:    "Contact"

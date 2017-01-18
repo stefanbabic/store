@@ -1,0 +1,20 @@
+sr:
+
+  layouts:
+    application:
+      title:        "Продавница спортских патика"
+      home:         "Почетна"
+      questions:    "Питања"
+      news:         "Новости"
+      contact:      "Контакт"
+      admin_login:  "Админ улаз"
+      logout:       "Излаз"
+
+  store:
+    index:
+      title_html:   "Каталог продавнице"
+      add_html:     "У корпу"
+
+  carts:
+    cart:
+      title:        "Ваша корпа:"
