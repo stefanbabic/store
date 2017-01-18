@@ -1,5 +1,7 @@
 de:
 
+  thanks:           "Danke für Ihre Bestellung."
+
   layouts:
     application:
       title:        "Die Sportschuhe Shop"
