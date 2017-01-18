@@ -12,14 +12,30 @@ de:
 
   store:
     index:
-      title_html:   "Shop Katalog"
-      add_html:     "In den Warenkorb"
+      title:   "Shop Katalog"
+      add:     "In den Warenkorb"
 
   carts:
     cart:
       title:        "Dein Warenkorb:"
+      total:        "Gesamtbestellwert:"
       checkout:     "Jetzt kaufen"
       empty:        "Der Warenkorb leeren"
+
+  line_items:
+    line_item:
+      remove_item:  "Löschen"
+
+  orders:
+    new:
+      legend:       "Bitte die Daten eintragen"
+    form:
+      name:         "Name:"
+      address:      "Adresse:"
+      email:        "E-mail:"
+      pay_type:     "Zahlungsart:"
+      pay_prompt:   "Bitte wählen"
+      place_order:  "Jetzt kaufen"
 
   number:
     currency:

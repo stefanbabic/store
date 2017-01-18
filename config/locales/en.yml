@@ -21,6 +21,8 @@
 
 en:
 
+  thanks:           "Thank you for your order."
+
   layouts:
     application:
       title:        "The Sport Shoes Store"
@@ -33,14 +35,30 @@ en:
 
   store:
     index:
-      title_html:   "Store Catalog"
-      add_html:     "Add to Cart"
+      title:   "Store Catalog"
+      add:     "Add to Cart"
 
   carts:
     cart:
       title:        "Your Cart:"
+      total:        "Total:"
       checkout:     "Checkout"
       empty:        "Empty Cart"
+
+  line_items:
+    line_item:
+      remove_item:  "Remove Item"
+
+  orders:
+    new:
+      legend:       "Please Enter Your Details"
+    form:
+      name:         "Name:"
+      address:      "Address:"
+      email:        "E-mail:"
+      pay_type:     "Pay with:"
+      pay_prompt:   "Select a payment method"
+      place_order:  "Place Order"
 
   number:
     currency:

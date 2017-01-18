@@ -1,5 +1,7 @@
 sr:
 
+  thanks:           "Хвала Вам за вашу поруџбину."
+
   layouts:
     application:
       title:        "Продавница спортских патика"
@@ -12,9 +14,37 @@ sr:
 
   store:
     index:
-      title_html:   "Каталог продавнице"
-      add_html:     "У корпу"
+      title:   "Каталог продавнице"
+      add:     "У корпу"
 
   carts:
     cart:
       title:        "Ваша корпа:"
+      total:        "Укупно:"
+      checkout:     "Заврши куповину"
+      empty:        "Испразни корпу"
+
+  line_items:
+    line_item:
+      remove_item:  "Уклони"
+
+  orders:
+    new:
+      legend:       "Молимо Вас унесите Ваше податке"
+    form:
+      name:         "Име:"
+      address:      "Адреса:"
+      email:        "E-пошта:"
+      pay_type:     "Начин плаћања:"
+      pay_prompt:   "Изаберите"
+      place_order:  "Потврди"
+
+  number:
+    currency:
+      format:
+        unit:       "дин"
+        precision:  2
+        separator:  ","
+        delimiter:  "."
+        format:     "%n&nbsp%u"
+
